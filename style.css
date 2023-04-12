@@ -44,7 +44,7 @@ section {
 }
 
 .heading span {
-    color: --;
+    color: var(--black);
     border-radius: .5rem;
     background: var(--health-purple);
     padding: 0 1.5rem;  
@@ -56,7 +56,7 @@ section {
     padding: .8rem 3rem;
     font-size: 1.7rem;
     cursor: pointer;
-    color: var(--black);
+    color: white;
     background: var(--health-pink);
     border-radius: .5rem;
     box-shadow: var(--box-shadow);
@@ -80,6 +80,10 @@ section {
 .btn:hover::before {
     left: 0;
     width: 100%;
+}
+
+.Home .content p{
+    text-transform: none;
 }
 
 .Home .cloud{
@@ -141,6 +145,7 @@ section {
     padding-top: 2rem 0;
     margin-top: 1rem;
     line-height: 2;
+    text-transform: none;
 }
 
 .About .row {
@@ -173,6 +178,7 @@ section {
     color: var(--light-black);
     line-height: 2;
     padding: 1rem 0;
+    text-transform: none;
 }
 
 .About .row .content .icons-container {
@@ -272,13 +278,214 @@ section {
     position: absolute;
     top: 0;
     left: 0;
-    background: var(--black);
+    background: white;
     clip-path: circle(30% at 93% 0);
     transition: .3s linear;
 }
 
 .Portfolio .box-container .box:hover::before {
     clip-path: circle(100%);
+}
+
+.Pricing .box-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+    gap: 1.5rem;
+}
+
+.Pricing .box-container .box {
+    text-align: center;
+    padding: 2rem;
+    border-radius: .5rem;
+    border: var(--border);
+    box-shadow: var(--box-shadow);
+}
+
+.Pricing .box-container .box h3 {
+    color: var(--black);
+    font-size: 2.5rem;
+}
+
+.Pricing .box-container .box img {
+    margin: 2.5rem 0;
+    height: 15rem;
+}
+
+.Pricing .box-container .box ul li a {
+    text-decoration: underline;
+    color: var(--light-black);
+}
+
+.Pricing .box-container .box .price {
+    font-size: 3rem;
+    font-weight: bolder;
+    color: var(--health-purple);
+}
+
+.Pricing .box-container .box .price span {
+    font-size: 1rem;
+    font-weight: initial;
+    color: var(--health-purple);
+}
+
+.Pricing .box-container .box ul {
+    padding: 1rem 0;
+    list-style: none;
+}
+
+.Pricing .box-container .box ul li {
+    padding: 1rem 0;
+    font-size: 1.7rem;
+    color: var(--light-black);
+}
+
+.Pricing .box-container p {
+    font-size: 0.9rem;
+}
+
+.Review .box-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+    gap: 1.5rem;
+}
+
+.Review .box-container .box {
+    padding: 2rem;
+    border-radius: .5rem;
+    border: var(--border);
+    box-shadow: var(--box-shadow);
+}
+
+.Review .box-container .box .user {
+    display: flex;
+    align-items: center;
+    padding-bottom: 1rem;
+}
+
+.Review .box-container .box .user img {
+    height: 7rem;
+    width: 7rem;
+    border-radius: 50%;
+    margin-right: 1rem;
+}
+
+.Review .box-container .box .user h3 {
+    font-size: 2.2rem;
+    color: var(--black);
+    padding-bottom: .5rem;
+}
+
+.Review .box-container .box .user .star i {
+    font-size: 1.5rem;
+    color: var(--health-purple);
+    margin-left: 1rem;
+}
+
+.Review .box-container .box .fa-quote-right {
+    margin-left: auto;
+    font-size: 5rem;
+    color: var(--health-purple-light);
+}
+
+.Review .box-container .box p {
+    padding-top: 1rem;
+    font-size: 1.6rem;
+    line-height: 1.8;
+    color: var(--light-black);
+    font-style: italic;
+    text-align: center;
+    text-transform: none;
+}
+
+.Contact .icons-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+    gap: 1.5rem;
+}
+
+.Contact .icons-container .icons {
+    padding: 2.5rem;
+    text-align: center;
+    border: var(--border);
+    border-radius: .5rem;
+    box-shadow: var(--box-shadow);
+}
+
+.Contact .icons-container .icons i {
+    width: 6rem;
+    width: 6rem;
+    line-height: 6rem;
+    font-size: 2.5rem;
+    color: var(--health-purple);
+    background: var(--health-purple-light);
+    border-radius: 50%;
+}
+
+.Contact .icons-container .icons h3 {
+    color: var(--black);
+    padding: 1rem 0;
+    font-size: 2.5rem;
+}
+
+.Contact .icons-container .icons p {
+    color: var(--light-black);
+    line-height: 1.8;
+    font-size: 1.5rem;
+    text-decoration: none;
+}
+
+.Contact .row {
+    margin-top: 2rem;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+}
+
+.Contact .row .map {
+    flex: 1 1 45rem;
+    width: 100%;
+    padding: 2rem;
+    border: var(--border);
+    box-shadow: var(--box-shadow);
+    border-radius: .5rem;
+}
+
+.Contact .row form {
+    flex: 1 1 45rem;
+    padding: 2rem;
+    border: var(--border);
+    box-shadow: var(--box-shadow);
+    border-radius: .5rem;
+}
+
+.Contact .row form h2{
+    font-size: 2.5rem;
+    padding: 1rem;
+}
+
+.Contact .row form .box {
+    margin: 1.2rem 0;
+    padding: 1rem;
+    font-size: 1.6rem;
+    color: var(--black);
+    border-radius: .5rem;
+    border: var(--border);
+    background: var(--box-shadow);
+    text-transform: none;
+    width: 100%;
+}
+
+.Contact .row form .box:focus {
+    background: var(--health-purple-light);
+}
+
+.Contact .row form textarea {
+    height: 20rem;
+    resize: none;
+}
+
+.Contact .row form .btn:hover {
+    background: var(--black);
 }
 
 .header {
@@ -296,15 +503,23 @@ section {
 }
 
 .header .logo {
-    font-size: 2.5rem;
-    color: var(--black);
+    font-size: 2.1rem;
+    color: white;
     font-weight: bolder;
+    display: flex;
+    align-items: center;
+}
+
+.header .logo img {
+    max-width: 5rem;
+    display: flex;
 }
 
 .header .navbar a {
     font-size: 1.7rem;
-    color: var(--black);
+    color: white;
     margin-left: 2rem; /* 32 px */
+    padding-left: 0;
 }
 
 .header .navbar a:hover {
@@ -312,12 +527,17 @@ section {
     font-weight: bold;
 }
 
+.header .navbar a img {
+    max-width: 2.1rem;
+    align-self: center;
+}
+
 #menu-btn {
     cursor: pointer;
     font-size: 2.5rem;
     padding: 1rem 1.3rem;
     border-radius: .5rem;
-    color: var(--health-pink);
+    color: white;
     background: var(--health-purple);
     display: none;
 }
@@ -329,7 +549,7 @@ section {
 
 .Home {
     display: flex;
-    align-items: center;
+    align-items: flex-start;
     flex-wrap: wrap;
     gap: 1.5rem;
     padding-top: 10rem;
@@ -363,24 +583,66 @@ section {
 }
 
 .Footer {
+    margin-top: 1rem;
     position: relative;
     bottom: 0;
     left: 0;
     right: 0;
     z-index: 1000;
-    background: var(--health-purple);
+    background: var(--health-purple-light);
     box-shadow: var(--box-shadow);
-    display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 2rem 9%;
+    padding: 3% 3%;
 }
 
-.Footer .contact a, i {
-    font-size: 1.7rem;
+.Footer .box-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(23rem, 1fr));
+    gap: 1.5rem;
+}
+
+.Footer .box-container .box h3 {
+    font-size: 2.5rem;
+    padding: 1rem 0;
+    color: white;
+}
+
+.Footer .box-container .box a {
+    display: block;
+    font-size: 1.5rem;
+    padding: 1rem 0;
+    color: white;
+}
+
+.Footer .box-container .box a i {
+    padding-right: .5rem;
     color: var(--black);
-    margin-left: 2rem; /* 32 px */
-    text-transform: none;
+}
+
+.Footer .box-container .box a img {
+    max-height: 3.3rem;
+    max-width: 3.3rem;
+    padding-right: .5rem;
+    color: var(--black);
+    align-items: center;
+}
+
+.Footer .box-container .box a:hover i {
+    padding-right: 2rem;
+}
+
+.Footer .credit {
+    color: var(--black);
+    text-align: center;
+    padding: 1rem;
+    margin-top: 1rem;
+    padding-top: 1rem;
+    font-size: 1rem;
+}
+
+.Footer .credit span {
+    color: white;
 }
 
 /* media queries */
