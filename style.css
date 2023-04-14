@@ -1,12 +1,12 @@
 :root {
     --health-pink: #FF3678;
     --health-pink-light: #FFCFFF;
-    --health-blue: #62BAAC;
-    --health-blue-light: #C3FCF1;
-    --health-purple: #62BAAC;
-    --health-purple-light: #fff;
+    --green: #62BAAC;
+    --light-green: #C3FCF1;
+    --aqua-marina: #62BAAC;
+    --white: #fff;
     --black: #000;
-    --light-black: #808080;
+    --gray: #808080;
     --border: .1rem solid rgba(0,0,0,.1);
     --box-shadow: 0 .5rem 1.5rem rgba(0,0,0,.1);
 }
@@ -46,7 +46,7 @@ section {
 .heading span {
     color: var(--black);
     border-radius: .5rem;
-    background: var(--health-purple);
+    background: var(--aqua-marina);
     padding: 0 1.5rem;  
 }
 
@@ -72,7 +72,7 @@ section {
     right: 0;
     height: 100%;
     width: 0%;
-    background: var(--health-purple);
+    background: var(--aqua-marina);
     z-index: -1;
     transition: .15s ease-in-out;
 }
@@ -130,7 +130,7 @@ section {
 
 .Services .box-container .box img {
     height: 10rem;
-    color: var(--health-purple);
+    color: var(--aqua-marina);
 }
 
 .Services .box-container .box h3 {
@@ -140,12 +140,16 @@ section {
 }
 
 .Services .box-container .box p {
-    color: var(--light-black);
+    color: var(--gray);
     font-size: 1.2rem;
     padding-top: 2rem 0;
     margin-top: 1rem;
     line-height: 2;
     text-transform: none;
+}
+
+.About {
+    background: var(--aqua-marina);
 }
 
 .About .row {
@@ -175,7 +179,7 @@ section {
 
 .About .row .content p {
     font-size: 1.5rem;
-    color: var(--light-black);
+    color: var(--gray);
     line-height: 2;
     padding: 1rem 0;
     text-transform: none;
@@ -198,8 +202,8 @@ section {
 
 .About .row .content .icons-container .icons i {
     border-radius: 50%;
-    background: var(--health-purple-light);
-    color: var(--health-purple);
+    background: var(--white);
+    color: var(--aqua-marina);
     height: 5rem;
     width: 5rem;
     line-height: 5rem;
@@ -207,7 +211,7 @@ section {
 }
 
 .About .row .content .icons-container .icons h3 {
-    color: var(--light-black);
+    color: var(--gray);
     font-size: 1.5rem;
     padding-top: 1rem;
 }
@@ -268,7 +272,7 @@ section {
 
 .Portfolio .box-container .box .content p {
     font-size: 1.5rem;
-    color: var(--light-black);
+    color: var(--gray);
 }
 
 .Portfolio .box-container .box::before {
@@ -285,6 +289,10 @@ section {
 
 .Portfolio .box-container .box:hover::before {
     clip-path: circle(100%);
+}
+
+.Pricing {
+    background: var(--aqua-marina);
 }
 
 .Pricing .box-container {
@@ -313,19 +321,19 @@ section {
 
 .Pricing .box-container .box ul li a {
     text-decoration: underline;
-    color: var(--light-black);
+    color: var(--gray);
 }
 
 .Pricing .box-container .box .price {
     font-size: 3rem;
     font-weight: bolder;
-    color: var(--health-purple);
+    color: var(--aqua-marina);
 }
 
 .Pricing .box-container .box .price span {
     font-size: 1rem;
     font-weight: initial;
-    color: var(--health-purple);
+    color: var(--aqua-marina);
 }
 
 .Pricing .box-container .box ul {
@@ -336,7 +344,7 @@ section {
 .Pricing .box-container .box ul li {
     padding: 1rem 0;
     font-size: 1.7rem;
-    color: var(--light-black);
+    color: var(--gray);
 }
 
 .Pricing .box-container p {
@@ -377,24 +385,28 @@ section {
 
 .Review .box-container .box .user .star i {
     font-size: 1.5rem;
-    color: var(--health-purple);
+    color: var(--aqua-marina);
     margin-left: 1rem;
 }
 
 .Review .box-container .box .fa-quote-right {
     margin-left: auto;
     font-size: 5rem;
-    color: var(--health-purple-light);
+    color: var(--white);
 }
 
 .Review .box-container .box p {
     padding-top: 1rem;
     font-size: 1.6rem;
     line-height: 1.8;
-    color: var(--light-black);
+    color: var(--gray);
     font-style: italic;
     text-align: center;
     text-transform: none;
+}
+
+.Reco {
+    background: var(--aqua-marina);
 }
 
 .Reco .box-container {
@@ -431,21 +443,21 @@ section {
 
 .Reco .box-container .box .user .star i {
     font-size: 1.5rem;
-    color: var(--health-purple);
+    color: var(--aqua-marina);
     margin-left: 1rem;
 }
 
 .Reco .box-container .box .fa-quote-right {
     margin-left: auto;
     font-size: 5rem;
-    color: var(--health-purple-light);
+    color: var(--white);
 }
 
 .Reco .box-container .box p {
     padding-top: 1rem;
     font-size: 1.6rem;
     line-height: 1.8;
-    color: var(--light-black);
+    color: var(--gray);
     font-style: italic;
     text-align: center;
     text-transform: none;
@@ -470,8 +482,8 @@ section {
     width: 6rem;
     line-height: 6rem;
     font-size: 2.5rem;
-    color: var(--health-purple);
-    background: var(--health-purple-light);
+    color: var(--aqua-marina);
+    background: var(--white);
     border-radius: 50%;
 }
 
@@ -482,7 +494,7 @@ section {
 }
 
 .Contact .icons-container .icons p {
-    color: var(--light-black);
+    color: var(--gray);
     line-height: 1.8;
     font-size: 1.5rem;
     text-decoration: none;
@@ -530,7 +542,7 @@ section {
 }
 
 .Contact .row form .box:focus {
-    background: var(--health-purple-light);
+    background: var(--white);
 }
 
 .Contact .row form textarea {
@@ -548,7 +560,7 @@ section {
     left: 0;
     right: 0;
     z-index: 1000;
-    background: var(--health-purple);
+    background: var(--aqua-marina);
     box-shadow: var(--box-shadow);
     display: flex;
     align-items: center;
@@ -592,7 +604,7 @@ section {
     padding: 1rem 1.3rem;
     border-radius: .5rem;
     color: white;
-    background: var(--health-purple);
+    background: var(--aqua-marina);
     display: none;
 }
 
@@ -608,7 +620,7 @@ section {
     gap: 1.5rem;
     padding-top: 10rem;
     position: relative;
-    background: var(--health-purple-light);
+    background: var(--aqua-marina);
 }
 
 .Home .content {
@@ -643,7 +655,7 @@ section {
     left: 0;
     right: 0;
     z-index: 1000;
-    background: var(--health-purple-light);
+    background: var(--aqua-marina);
     box-shadow: var(--box-shadow);
     align-items: center;
     justify-content: space-between;
@@ -733,7 +745,7 @@ section {
         top: 115%;
         right: .3rem;
         margin-top: -.93rem;
-        background: var(--health-purple-light);
+        background: var(--white);
         box-shadow: var(--box-shadow);
         border: var(--border);
         border-radius: .5rem;
