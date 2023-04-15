@@ -43,10 +43,9 @@ section {
     cursor: default;
 }
 
-.heading span {
-    color: var(--black);
+.Home .heading {
+    color: var(--white);
     border-radius: .5rem;
-    background: var(--aqua-marina);
     padding: 0 1.5rem;  
 }
 
@@ -114,6 +113,12 @@ section {
     animation-duration: 15s;
 }
 
+.Services .heading {
+    color: var(--black);
+    border-radius: .5rem;
+    padding: 0 1.5rem;  
+}
+
 .Services .box-container {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(27rem, 1fr));
@@ -141,7 +146,7 @@ section {
 
 .Services .box-container .box p {
     color: var(--gray);
-    font-size: 1.2rem;
+    font-size: 1.6rem;
     padding-top: 2rem 0;
     margin-top: 1rem;
     line-height: 2;
@@ -150,6 +155,12 @@ section {
 
 .About {
     background: var(--aqua-marina);
+}
+
+.About .heading {
+    color: var(--white);
+    border-radius: .5rem;
+    padding: 0 1.5rem;  
 }
 
 .About .row {
@@ -174,12 +185,12 @@ section {
 
 .About .row .content .title {
     font-size: 3rem;
-    color: var(--black);
+    color: var(--white);
 }
 
 .About .row .content p {
     font-size: 1.5rem;
-    color: var(--gray);
+    color: var(--white);
     line-height: 2;
     padding: 1rem 0;
     text-transform: none;
@@ -211,9 +222,15 @@ section {
 }
 
 .About .row .content .icons-container .icons h3 {
-    color: var(--gray);
+    color: var(--white);
     font-size: 1.5rem;
     padding-top: 1rem;
+}
+
+.Portfolio .heading {
+    color: var(--black);
+    border-radius: .5rem;
+    padding: 0 1.5rem;  
 }
 
 .Portfolio .box-container {
@@ -295,10 +312,20 @@ section {
     background: var(--aqua-marina);
 }
 
+.Pricing .heading {
+    color: var(--white);
+    border-radius: .5rem;
+    padding: 0 1.5rem;  
+}
+
 .Pricing .box-container {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
     gap: 1.5rem;
+}
+
+.Pricing .box-container p {
+    color: white;
 }
 
 .Pricing .box-container .box {
@@ -310,7 +337,7 @@ section {
 }
 
 .Pricing .box-container .box h3 {
-    color: var(--black);
+    color: var(--white);
     font-size: 2.5rem;
 }
 
@@ -321,7 +348,7 @@ section {
 
 .Pricing .box-container .box ul li a {
     text-decoration: underline;
-    color: var(--gray);
+    color: var(--white);
 }
 
 .Pricing .box-container .box .price {
@@ -344,11 +371,17 @@ section {
 .Pricing .box-container .box ul li {
     padding: 1rem 0;
     font-size: 1.7rem;
-    color: var(--gray);
+    color: var(--white);
 }
 
 .Pricing .box-container p {
     font-size: 0.9rem;
+}
+
+.Review .heading {
+    color: var(--black);
+    border-radius: .5rem;
+    padding: 0 1.5rem;  
 }
 
 .Review .box-container {
@@ -409,6 +442,12 @@ section {
     background: var(--aqua-marina);
 }
 
+.Reco .heading {
+    color: var(--white);
+    border-radius: .5rem;
+    padding: 0 1.5rem;  
+}
+
 .Reco .box-container {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
@@ -437,7 +476,7 @@ section {
 
 .Reco .box-container .box .user h3 {
     font-size: 2.2rem;
-    color: var(--black);
+    color: var(--white);
     padding-bottom: .5rem;
 }
 
@@ -457,10 +496,16 @@ section {
     padding-top: 1rem;
     font-size: 1.6rem;
     line-height: 1.8;
-    color: var(--gray);
+    color: var(--white);
     font-style: italic;
     text-align: center;
     text-transform: none;
+}
+
+.Contactsp .heading {
+    color: var(--black);
+    border-radius: .5rem;
+    padding: 0 1.5rem;  
 }
 
 .Contact .icons-container {
@@ -637,13 +682,13 @@ section {
 
 .Home .content h3 {
     font-size: 3.5rem;
-    color: var(--black);
+    color: var(--white);
     line-height: 1.8;
 }
 
 .Home .content p {
     font-size: 1.7rem;
-    color: var(--black);
+    color: var(--white);
     line-height: 1.8;
     padding: 1rem 0;
 }
@@ -707,7 +752,7 @@ section {
     font-size: 1rem;
 }
 
-.Footer .credit span {
+.Footer .credit span{
     color: white;
 }
 
