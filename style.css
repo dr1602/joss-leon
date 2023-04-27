@@ -46,7 +46,7 @@ section {
 .Home .heading {
     color: var(--white);
     border-radius: .5rem;
-    padding: 0 1.5rem;  
+    padding: 0 1.5rem 2rem;  
 }
 
 .btn {
@@ -116,7 +116,7 @@ section {
 .Services .heading {
     color: var(--black);
     border-radius: .5rem;
-    padding: 0 1.5rem;  
+    padding: 0 1.5rem 2rem;  
 }
 
 .Services .box-container {
@@ -160,7 +160,7 @@ section {
 .About .heading {
     color: var(--white);
     border-radius: .5rem;
-    padding: 0 1.5rem;  
+    padding: 0 1.5rem 2rem;  
 }
 
 .About .row {
@@ -171,7 +171,7 @@ section {
 }
 
 .About .row .image{
-    flex: 1 1 45rem;
+    flex: 1 1;
     padding: 2rem;
     
 }
@@ -233,7 +233,7 @@ section {
 .Portfolio .heading {
     color: var(--black);
     border-radius: .5rem;
-    padding: 0 1.5rem;  
+    padding: 0 1.5rem 2rem;  
 }
 
 .Portfolio .box-container {
@@ -318,7 +318,7 @@ section {
 .Pricing .heading {
     color: var(--white);
     border-radius: .5rem;
-    padding: 0 1.5rem;  
+    padding: 0 1.5rem 2rem;  
 }
 
 .Pricing .box-container {
@@ -384,7 +384,7 @@ section {
 .Review .heading {
     color: var(--black);
     border-radius: .5rem;
-    padding: 0 1.5rem;  
+    padding: 0 1.5rem 2rem;  
 }
 
 .Review .box-container {
@@ -448,7 +448,7 @@ section {
 .Reco .heading {
     color: var(--white);
     border-radius: .5rem;
-    padding: 0 1.5rem;  
+    padding: 0 1.5rem 2rem;  
 }
 
 .Reco .box-container {
@@ -489,6 +489,12 @@ section {
     margin-left: 1rem;
 }
 
+.Reco .box-container .box .user i.fas, .fa-phone {
+    font-weight: 1000;
+    color: var(--white);
+    margin-left: 1rem;
+}
+
 .Reco .box-container .box .fa-quote-right {
     margin-left: auto;
     font-size: 5rem;
@@ -508,7 +514,7 @@ section {
 .Contactsp .heading {
     color: var(--black);
     border-radius: .5rem;
-    padding: 0 1.5rem;  
+    padding: 0 1.5rem 2rem;  
 }
 
 .Contact .icons-container {
@@ -667,6 +673,7 @@ section {
     flex-wrap: wrap;
     gap: 1.5rem;
     padding-top: 10rem;
+    padding-bottom: 4.5rem;
     position: relative;
     background: var(--aqua-marina);
 }
