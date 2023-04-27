@@ -1,9 +1,9 @@
 :root {
-    --health-pink: #FF3678;
+    --health-pink: #CD3649;
     --health-pink-light: #FFCFFF;
-    --green: #E1D0C0;
+    --green: #D9D9D9;
     --light-green: #C3FCF1;
-    --aqua-marina: #E1D0C0;
+    --aqua-marina: #EFEFEF;
     --white: #fff;
     --black: #000;
     --gray: #808080;
@@ -44,7 +44,7 @@ section {
 }
 
 .Home .heading {
-    color: var(--white);
+    color: var(--black);
     border-radius: .5rem;
     padding: 0 1.5rem 2rem;  
 }
@@ -158,7 +158,7 @@ section {
 }
 
 .About .heading {
-    color: var(--white);
+    color: var(--black);
     border-radius: .5rem;
     padding: 0 1.5rem 2rem;  
 }
@@ -173,7 +173,8 @@ section {
 .About .row .image{
     flex: 1 1;
     padding: 2rem;
-    
+    display: flex;
+    justify-content: center;
 }
 
 .About .row .image img{
@@ -188,12 +189,12 @@ section {
 
 .About .row .content .title {
     font-size: 3rem;
-    color: var(--white);
+    color: var(--black);
 }
 
 .About .row .content p {
     font-size: 1.5rem;
-    color: var(--white);
+    color: var(--black);
     line-height: 2;
     padding: 1rem 0;
     text-transform: none;
@@ -225,7 +226,7 @@ section {
 }
 
 .About .row .content .icons-container .icons h3 {
-    color: var(--white);
+    color: var(--black);
     font-size: 1.5rem;
     padding-top: 1rem;
 }
@@ -288,6 +289,7 @@ section {
     font-size: 2.5rem;
     padding-bottom: .5rem;
     color: var(--black);
+    text-align: center;
 }
 
 .Portfolio .box-container .box .content p {
@@ -316,7 +318,7 @@ section {
 }
 
 .Pricing .heading {
-    color: var(--white);
+    color: var(--black);
     border-radius: .5rem;
     padding: 0 1.5rem 2rem;  
 }
@@ -340,7 +342,7 @@ section {
 }
 
 .Pricing .box-container .box h3 {
-    color: var(--white);
+    color: var(--black);
     font-size: 2.5rem;
 }
 
@@ -351,19 +353,19 @@ section {
 
 .Pricing .box-container .box ul li a {
     text-decoration: underline;
-    color: var(--white);
+    color: var(--black);
 }
 
 .Pricing .box-container .box .price {
     font-size: 3rem;
     font-weight: bolder;
-    color: var(--aqua-marina);
+    color: var(--black);
 }
 
 .Pricing .box-container .box .price span {
     font-size: 1rem;
     font-weight: initial;
-    color: var(--aqua-marina);
+    color: var(--black);
 }
 
 .Pricing .box-container .box ul {
@@ -374,7 +376,7 @@ section {
 .Pricing .box-container .box ul li {
     padding: 1rem 0;
     font-size: 1.7rem;
-    color: var(--white);
+    color: var(--black);
 }
 
 .Pricing .box-container p {
@@ -446,7 +448,7 @@ section {
 }
 
 .Reco .heading {
-    color: var(--white);
+    color: var(--black);
     border-radius: .5rem;
     padding: 0 1.5rem 2rem;  
 }
@@ -479,7 +481,7 @@ section {
 
 .Reco .box-container .box .user h3 {
     font-size: 2.2rem;
-    color: var(--white);
+    color: var(--black);
     padding-bottom: .5rem;
 }
 
@@ -491,21 +493,21 @@ section {
 
 .Reco .box-container .box .user i.fas, .fa-phone {
     font-weight: 1000;
-    color: var(--white);
+    color: var(--black);
     margin-left: 1rem;
 }
 
 .Reco .box-container .box .fa-quote-right {
     margin-left: auto;
     font-size: 5rem;
-    color: var(--white);
+    color: var(--black);
 }
 
 .Reco .box-container .box p {
     padding-top: 1rem;
     font-size: 1.6rem;
     line-height: 1.8;
-    color: var(--white);
+    color: var(--black);
     font-style: italic;
     text-align: center;
     text-transform: none;
@@ -537,7 +539,7 @@ section {
     line-height: 6rem;
     font-size: 2.5rem;
     color: var(--aqua-marina);
-    background: var(--white);
+    background: var(--black);
     border-radius: 50%;
 }
 
@@ -614,8 +616,9 @@ section {
     left: 0;
     right: 0;
     z-index: 1000;
-    background: var(--aqua-marina);
+    background: var(--green);
     box-shadow: var(--box-shadow);
+        border: var(--border);
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -624,7 +627,7 @@ section {
 
 .header .logo {
     font-size: 2.1rem;
-    color: white;
+    color: var(--black);
     font-weight: bolder;
     display: flex;
     align-items: center;
@@ -637,7 +640,7 @@ section {
 
 .header .navbar a {
     font-size: 1.7rem;
-    color: white;
+    color: var(--black);
     margin-left: 2rem; /* 32 px */
     padding-left: 0;
 }
@@ -657,7 +660,7 @@ section {
     font-size: 2.5rem;
     padding: 1rem 1.3rem;
     border-radius: .5rem;
-    color: white;
+    color: var(--black);
     background: var(--aqua-marina);
     display: none;
 }
@@ -692,13 +695,13 @@ section {
 
 .Home .content h3 {
     font-size: 3.5rem;
-    color: var(--white);
+    color: var(--black);
     line-height: 1.8;
 }
 
 .Home .content p {
     font-size: 1.7rem;
-    color: var(--white);
+    color: var(--black);
     line-height: 1.8;
     padding: 1rem 0;
 }
@@ -710,8 +713,9 @@ section {
     left: 0;
     right: 0;
     z-index: 1000;
-    background: var(--aqua-marina);
+    background: var(--green);
     box-shadow: var(--box-shadow);
+    border: var(--border);
     align-items: center;
     justify-content: space-between;
     padding: 3% 3%;
@@ -726,14 +730,14 @@ section {
 .Footer .box-container .box h3 {
     font-size: 2.5rem;
     padding: 1rem 0;
-    color: white;
+    color: var(--black);
 }
 
 .Footer .box-container .box a {
     display: block;
     font-size: 1.5rem;
     padding: 1rem 0;
-    color: white;
+    color: var(--black);
 }
 
 .Footer .box-container .box a i {
@@ -800,7 +804,7 @@ section {
         top: 115%;
         right: .3rem;
         margin-top: -.93rem;
-        background: var(--white);
+        background: var(--green);
         box-shadow: var(--box-shadow);
         border: var(--border);
         border-radius: .5rem;
@@ -829,7 +833,6 @@ section {
         right: 1rem;
         left: 1rem;
     }
-
 }
 
 @media (max-width: 450px) {
